@@ -1,17 +1,19 @@
-# gtd
+gtd
 Getting Things Done principles implementation on clientside.
 
-@context:situation
-#project:motivation
-*priority
-$duration
-&duedate
+@_context:situation
+
+#_project:motivation
+
+*_priority as rank
+$_duration with units hh,mm,dd,cw,yy
+&_duedate in dd-mm-yy format
 
 add item to list-dailylist,longtermlist
 
 display complete list
 
-depening on left tab
+depending on left tab
 create motivation list on left pane
 create situation list on left pane
 
